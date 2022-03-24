@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto+Slab&display=swap');
 
 /* Globol Styles */
+
 body {
     background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
-    
+    font-family: 'Inter', sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
 }
