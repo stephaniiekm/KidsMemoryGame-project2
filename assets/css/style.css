@@ -5,7 +5,14 @@
 body {
     background-color: whitesmoke;
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
+
+/* Ruels section */
+
+
+
+/* Game area section */
 
 .grid {
     display: flex;
