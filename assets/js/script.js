@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             var card = document.createElement('img');
-            card.setAttribute('src', 'images/loving.png');
+            card.setAttribute('src', 'assets/images/loving.png');
             card.setAttribute('data-id', i);
             //card.addEventListener('click', flipcard)
             grid.appendChild(card);
