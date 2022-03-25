@@ -96,7 +96,7 @@ function flipCard() {
 
     if (cardsChosen.length === 2) {
         setTimeout(checkForMatch, 2);
-    }
+    } 
 }
 
 
