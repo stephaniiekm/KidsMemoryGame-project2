@@ -52,7 +52,7 @@ var cardsWon = [];
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img');
-        card.setAttribute('src', 'assets/images/loving.png');
+        card.setAttribute('src', 'assets/images/cover.png');
         card.setAttribute('data-id', i);
         card.addEventListener('click', flipCard);
         grid.appendChild(card);
@@ -72,8 +72,8 @@ function checkForMatch() {
         cards[optionTwoId].setAttribute('src', 'assets/images/blank.png');
         cardsWon.push(cardsChosen);
     } else {
-        cards[optionOneId].setAttribute('src', 'assets/images/loving.png');
-        cards[optionTwoId].setAttribute('src', 'assets/images/loving.png');
+        cards[optionOneId].setAttribute('src', 'assets/images/cover.png');
+        cards[optionTwoId].setAttribute('src', 'assets/images/cover.png');
         alert('Sorry, try again');
     }
 
@@ -95,7 +95,7 @@ function flipCard() {
     this.setAttribute('src', cardArray[cardId].img);
 
     if (cardsChosen.length === 2) {
-        setTimeout(checkForMatch, 500);
+        setTimeout(checkForMatch, 2);
     }
 }
 
