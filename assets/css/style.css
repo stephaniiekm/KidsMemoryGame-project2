@@ -2,9 +2,9 @@
 
 /* Globol Styles */
 * {
-    padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;
+    padding: 0;
   }
     
 
@@ -12,29 +12,52 @@ body {
     background-color: whitesmoke;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+}
+
+
 /* Ruels section */
+#rules {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+img.rules-img1 {
+    box-shadow: 0px 0px 2px 3px rgb(23 235 59 / 30%);
+    border-radius: 10%;
+    height: 53px;
+}
+
+img.rules-img2 {
+    box-shadow: 0px 0px 2px 3px rgba(218, 15, 8, 0.3);
+    border-radius: 10%;
+    height: 53px;
+}
 
 
 
 /* Game area section */
-
 #game-area {
-    border: 2px solid black;
-    display: flex;
-    flex-wrap: nowwrap;
+    border: 5px solid black;
     height: 100%;
     width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
 }
 
-#game-area img {
-    
+#game-area img { 
     height: 95px;
     width: 100px;
-}
-
-
-.grid {
-    width: 100%;
+    margin: 5px;
 }
