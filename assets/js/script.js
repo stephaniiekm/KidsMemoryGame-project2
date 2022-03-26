@@ -62,7 +62,7 @@ function createBoard() {
 
 //this function checks if the picked cards are matched, if else it flips back and the user gets an alert
 function checkForMatch() {
-    var cards = document.querySelectorAll('img');
+    var cards = document.querySelectorAll('div.grid img');
     const optionOneId = cardsChosenId[0];
     const optionTwoId = cardsChosenId[1];
 
@@ -80,6 +80,7 @@ function checkForMatch() {
     cardsChosen = [];
     cardsChosenId = [];
     resultDisplay.textContent = cardsWon.length;
+    
     if (cardsWon.length === cardArray.length/2) {
         resultDisplay.textContent = 'Congratulation! You got them all.';
     }
@@ -95,8 +96,8 @@ function flipCard() {
     this.setAttribute('src', cardArray[cardId].img);
 
     if (cardsChosen.length === 2) {
-        setTimeout(checkForMatch, 2);
-    } 
+        setTimeout(checkForMatch, 700);
+    }
 }
 
 
