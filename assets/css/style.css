@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 
@@ -28,6 +28,7 @@ h1 {
 #rules {
     margin-top: 3%;
     margin-bottom: 3%;
+    
 }
 
 img.rules-img1 {
@@ -47,6 +48,8 @@ img.rules-img2 {
 /* Game area section */
 #game-area {
     border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 9px -15px 30px 19px rgb(0 0 0 / 10%);
     height: 100%;
     width: 75%;
     margin-left: auto;
@@ -57,9 +60,10 @@ img.rules-img2 {
 }
 
 #game-area img { 
+    border-radius: 8%;
+    box-shadow: inset 0px 3px 20px 0px rgb(0 0 0 / 10%);
+    border: 2px dotted black;
+    margin: 15px;
     height: 95px;
     width: 100px;
-    margin: 15px;
-    border-radius: 10%;
-    border: 2px dotted black;
 }
