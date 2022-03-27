@@ -35,12 +35,14 @@ img.rules-img1 {
     box-shadow: 0px 0px 2px 3px rgb(23 235 59 / 30%);
     border-radius: 10%;
     height: 53px;
+    width: auto;
 }
 
 img.rules-img2 {
     box-shadow: 0px 0px 2px 3px rgba(218, 15, 8, 0.3);
     border-radius: 10%;
     height: 53px;
+    width: auto;
 }
 
 
