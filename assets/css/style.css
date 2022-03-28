@@ -18,10 +18,11 @@ body {
     margin-right: auto;
 }
 
-h1 {
+h1, h3, button {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+
 
 
 /* Ruels section */
@@ -68,4 +69,14 @@ img.rules-img2 {
     margin: 15px;
     height: 95px;
     width: 100px;
+}
+
+
+
+/* Div-footer */
+button {
+    padding: 2%;
+    background-color: lightgreen;
+    border-radius: 10% 10%;
+    font-weight: bolder;
 }
