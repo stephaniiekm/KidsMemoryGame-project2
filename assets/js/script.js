@@ -74,7 +74,6 @@ function checkForMatch() {
     } else {
         cards[optionOneId].setAttribute('src', 'assets/images/cover.png');
         cards[optionTwoId].setAttribute('src', 'assets/images/cover.png');
-        alert('Sorry, try again');
     }
 
     cardsChosen = [];
