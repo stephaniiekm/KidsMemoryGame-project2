@@ -54,6 +54,7 @@ function createBoard() {
         var card = document.createElement('img');
         card.setAttribute('src', 'assets/images/cover.png');
         card.setAttribute('data-id', i);
+        card.setAttribute('alt', "cover card");
         card.addEventListener('click', flipCard);
         grid.appendChild(card);
     }
