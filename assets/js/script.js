@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-//card options
+/**
+ * card options
+ */
 const cardArray = [
     {
         name: 'angry',
@@ -46,9 +48,10 @@ var cardsWon = [];
 
 
 
-//this function creates the game board
-//the bord are buildt in cards and creates childrens for the div.grid in the HTML
-
+/**
+ * his function creates the game board
+ * the bord are buildt in cards and creates childrens for the div.grid in the HTML
+*/
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         var card = document.createElement('img');
@@ -61,7 +64,10 @@ function createBoard() {
 }
 
 
-//this function checks if the picked cards are matched, if else it flips back and the user gets an alert
+/**
+ * this function checks if the picked cards are matched, 
+ * if else it flips back and the user gets an alert
+ */
 function checkForMatch() {
     var cards = document.querySelectorAll('div.grid img');
     const optionOneId = cardsChosenId[0];
@@ -87,8 +93,9 @@ function checkForMatch() {
 }
 
 
-//this function flip the chosen cards and fill the space with the next image from the cardArray
-//the if-statement checks so two cards are chosen
+/**this function flip the chosen cards and fill the space with the next image from the cardArray
+ * the if-statement checks so two cards are chosen
+ */
 function flipCard() {
     var cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].name);
