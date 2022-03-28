@@ -8,6 +8,8 @@ Because it´s made for smaller kids it´s not so many cards.
 
 The game is build user friendly and is responsive to different screens, with basic HTML, some CSS and JavaScript .
 
+![Different screens](/assets/READMEimg/game%20-%20on%20screens.png)
+
 ---
 
 # Features
@@ -17,22 +19,33 @@ The game is build in a one page website, and is divided into sections.
 
 Existing features:
 
-## Header
 
+## Header
      * At the top of the page it´s a header – MEMORY GAME
      * This header tells the user witch game they are playing
      * It has an easily readable font
+![Header](/assets/READMEimg/header.png)
+
 
 ## Rules
 
     * Provides information about the game’s rules
     * To get the rules easier two images show the user goals.
+![Rules](/assets/READMEimg/rules.png)
 
 ## Game Board
 
     * The memory game is inside a black border
     * Inside the border the user can find the cards
     * Above the cards it is a score counter
+![Game-Board and score](/assets/READMEimg/game-board-horizontal.png)
+
+
+## Play again - Button
+
+    * This button is reloading the game page
+    * Insted of a footer
+![Play Agian - Button](/assets/READMEimg/playAgain-Button.png)
 
 ## Style of the game
 The game is a first memory game for kids, and it has more potential to get feuture 
@@ -44,6 +57,10 @@ The game is a first memory game for kids, and it has more potential to get feutu
 ### CSS
 
 - As a style language, also used to create media quarie.
+
+### JavaScript
+
+- As a function language, also used to create the gameboard.
 
 ### Google fonts
 
@@ -103,8 +120,8 @@ Final results:
  - Desktop:
 ![Lighthouse](/assets/READMEimg/gameLighthouse.png)
 
-- 
-![Lighthouse](assets\pic-README\Lighthouse.png)
+- Mobile
+![Lighthouse](/assets/READMEimg/gameLighthouse.png)
 I noticed that this tests scores vary from time to time and depends on external libraries as well.
 
 - HTML
@@ -118,10 +135,13 @@ I noticed that this tests scores vary from time to time and depends on external 
       - Function with the largest signature takes 0 arguments, while the median is 0.
       - Largest function has 15 statements in it, while the median is 7.
       - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
+    ![JavaScript-validation](/assets/READMEimg/js-validation.png)
+
+
 
 ### Unfixed Bugs
 
-No unfixed bugs
+No unfixed bugs, but some warnings like in the above image.
 
 ## Deployment
 
@@ -136,7 +156,7 @@ The live link can be found here - https://stephaniiekm.github.io/KidsMemoryGame-
 
 
 
-## Credits 
+## Credits
 
 ### Media
 
