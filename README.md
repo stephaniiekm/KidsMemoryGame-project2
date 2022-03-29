@@ -121,7 +121,7 @@ Final results:
 ![Lighthouse](/assets/READMEimg/gameLighthouse.png)
 
 - Mobile
-![Lighthouse](/assets/READMEimg/gameLighthouse.png)
+![Lighthouse](/assets/READMEimg/js-validation2.png)
 I noticed that this tests scores vary from time to time and depends on external libraries as well.
 
 - HTML
